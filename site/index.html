@@ -1,18 +1,84 @@
 <html>
-<head><title>My git web page -Vivek</title></head>
-<body>
-<center>
-<hr/><hr/>
-<h1>
-Vivek The Great
-</h1>
-<h1>
-Hey Mohee, this is the song i was talking about
-</h1>
-<hr/><hr/>
+  <head>
+    <title>Vivek Patidar</title>
+  </head>
+  <style>
+    .glow {
+      font-size: 30px;
+      color: #000;
+      font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+        "Lucida Sans", Arial, sans-serif;
+      text-align: center;
+      -webkit-animation: glow 1s ease-in-out infinite alternate;
+      -moz-animation: glow 1s ease-in-out infinite alternate;
+      animation: glow 1s ease-in-out infinite alternate;
+    }
 
-    <iframe width="972" height="547" src="https://www.youtube.com/embed/L7mfjvdnPno" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-	
-</center>
-</body>
+    @-webkit-keyframes glow {
+      from {
+        text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #e60073,
+          0 0 20px #e60073, 0 0 25px #e60073, 0 0 30px #e60073, 0 0 35px #e60073;
+      }
+
+      to {
+        text-shadow: 0 0 10px #fff, 0 0 15px #ff4da6, 0 0 20px #ff4da6,
+          0 0 25px #ff4da6, 0 0 30px #ff4da6, 0 0 35px #ff4da6, 0 0 40px #ff4da6;
+      }
+    }
+    body {
+      background-color: #eee;
+    }
+    #mainDiv {
+      background-color: black;
+      border: 2px solid black;
+      margin: 50px;
+      padding-bottom: 20px;
+      box-shadow: 1px 1px 20px black;
+    }
+    h1 {
+      color: white;
+      font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    }
+    iframe {
+      margin: 10px;
+      border: white solid 1px;
+      box-shadow: 1px 1px 10px burlywood;
+    }
+    #headingH1 {
+      font-size: 2rem;
+      text-align: center;
+      height: 10vh;
+      line-height: 10vh;
+      color: #eee;
+      background: #d52e3f;
+      font-family: "Niconne", cursive;
+      font-weight: 700;
+      text-shadow: 1px 1px 1px #eb452b, 2px 2px 1px #efa032, 3px 3px 1px #46b59b,
+        4px 4px 1px #017e7f, 5px 5px 1px #052939, 6px 6px 1px #c11a2b,
+        7px 7px 1px #c11a2b, 8px 8px 1px #c11a2b, 9px 9px 1px #c11a2b;
+    }
+  </style>
+  <body>
+    <center>
+      <div id="mainDiv">
+        <h1 class="glow">
+          Welcome to my page. This is Vivek... <br />
+          Stay Home Stay Safe :)
+        </h1>
+        <hr />
+        <h1 id="headingH1">
+          Hey Mohee, this is the song I was talking about
+        </h1>
+
+        <iframe
+          width="972"
+          height="547"
+          src="https://www.youtube.com/embed/L7mfjvdnPno"
+          frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </center>
+  </body>
 </html>
